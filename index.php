@@ -14,7 +14,7 @@
   <body>
    <div class="container">
      <div class="row">
-       <div clas="col-6 coffee-list"> <!-- Левая сторона (Выбор кофе)-->
+       <div class="col-6 coffee-list"> <!-- Левая сторона (Выбор кофе)-->
         <div class="row flex-column justify-content-around">
           <div class="coffee-item">
             <img src="img/americano.png" alt="Американо">
@@ -49,7 +49,17 @@
              </div>
            </div>
            <div class="col-6"><!--<Баланс, АТМ, Сдача-->
-             
+            <div class="input-group mb-3">
+              <input type="text" class="form-control balance" placeholder="Баланс">
+              <div class="input-group-append">
+                <span class="input-group-text">&#8381;</span>
+              </div>
+            </div>  
+            <div class="atm">
+              <img src="img/bill_acc.png" alt="">
+            </div>
+            <button class="btn btn-primary btn-block mt-3 change-btn">Сдача</button>
+            <div class="change-box"></div>
            </div>
          </div>
        </div>

@@ -1,11 +1,12 @@
 .coffee-list {
-  background-image: url("img/background.jpg");/*cover - покрыть полностью contain - поместить по ширине*/
+  background-image: url(img/background.jpg);/*cover - покрыть полностью contain - поместить по ширине*/
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .coffee-item {
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50px;
+  border-radius: calc(75px / 2);
   margin: 15px;
   cursor: pointer;
 }
@@ -13,10 +14,11 @@
 .coffee-item:hover {
   background-color: rgba(50, 50, 50, 0.7);
 }
+
 .coffee-item img {
   background-color: white;
   border-radius: 50%;
-  height: 100px;
+  height: 75px;
 }
 
 .coffee-item span {
@@ -24,7 +26,7 @@
   margin-left: 30px;
 }
 
-.COFFEE-OPER {
+.coffee-oper {
   BACKGROUND-COLOR: lightgreen;
   padding: 15px;
 }
@@ -38,6 +40,16 @@
 
 .cup img {
   width: 100%;
+}
+
+.atm img {
+  width: 100%;
+}
+
+.change-box {
+  background: grey;
+  border: 2px solid black;
+  min-height: 100px;
 }
 
 
