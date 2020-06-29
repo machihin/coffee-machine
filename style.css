@@ -23,11 +23,12 @@
 
 .coffee-item span {
   color: white;
-  margin-left: 30px;
+  font-size: 32px;
+  margin-left: 60px;
 }
 
 .coffee-oper {
-  BACKGROUND-COLOR: lightgreen;
+  background-color: lightgreen;
   padding: 15px;
 }
 
