@@ -39,11 +39,16 @@
   padding: 10px;
 }
 
-.cup img {
-  width: 100%;
+.pointer {
+  cursor: pointer;
 }
 
-.atm img {
+.cup {
+  display: none;
+  opacity: 0;
+}
+
+.cup img, .atm img {
   width: 100%;
 }
 
@@ -53,5 +58,8 @@
   min-height: 100px;
 }
 
+.money img {
+  width: 20%;
+}
 
 
