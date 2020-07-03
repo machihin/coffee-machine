@@ -50,12 +50,13 @@
            </div>
            <div class="col-6"><!--<Баланс, АТМ, Сдача-->
             <div class="input-group mb-3">
-              <input type="text" class="form-control balance" placeholder="Баланс">
+              <input type="text" class="form-control balance" placeholder="Баланс" readonly>
               <div class="input-group-append">
                 <span class="input-group-text">&#8381;</span>
               </div>
             </div>  
             <div class="atm">
+              <div class="cash-catcher"></div>
               <img src="img/bill_acc.png" alt="">
             </div>
             <button class="btn btn-primary btn-block mt-3 change-btn">Сдача</button>
@@ -65,10 +66,10 @@
        </div>
      </div>
    </div>
-   <div ckass="maney">
-     <img src="img/100rub.jpg" alt="">
-     <img src="img/500rub.jpg" alt="">
-     <img src="img/50rub.jpg" alt="">
+   <div class="money">
+     <img src="img/100rub.jpg" cost="100" alt="">
+     <img src="img/500rub.jpg" cost="500" alt="">
+     <img src="img/50rub.jpg" cost="50" alt="">
    </div>
     <!-- Optional JavaScript -->
     <script src="script.js"><></script>
